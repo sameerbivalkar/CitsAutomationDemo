@@ -1,0 +1,10 @@
+<Root ref="DemoProject" type="RC">
+<Folder ref="New Group">
+<Scenario ref="BasicFeatures">
+<TestCase exeType="Executable" ref="Reusable"/>
+</Scenario>
+<Scenario ref="VegetableCart">
+<TestCase exeType="Executable" ref="VegetableSelection"/>
+</Scenario>
+</Folder>
+</Root>

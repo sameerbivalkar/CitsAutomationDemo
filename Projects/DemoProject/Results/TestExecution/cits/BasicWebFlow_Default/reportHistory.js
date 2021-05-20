@@ -1,0 +1,1 @@
+var reportName="cits:BasicWebFlow_Default";var dataSet=[{"PassTC":"0","FailTC":"1","ReportPath":"19-May-2021 16-10-49\\summary.html","ExecTC":"1","ExecutionDate":"19-May-2021 16-10-49","ExecTime":"00:00:10"},{"PassTC":"0","FailTC":"1","ReportPath":"19-May-2021 16-16-53\\summary.html","ExecTC":"1","ExecutionDate":"19-May-2021 16-16-53","ExecTime":"00:00:02"}]

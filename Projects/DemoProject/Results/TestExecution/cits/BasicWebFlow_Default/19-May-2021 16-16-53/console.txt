@@ -1,0 +1,156 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11
+java.home            : C:\Program Files\Java\jdk-11
+os.name              : Windows 8.1
+os.arch              : amd64
+os.version           : 6.3
+file.encoding        : UTF-8
+========================
+Run Started on Wed May 19 16:16:53 IST 2021
+Loading Browser Profile
+Loading RunManager
+[Scenario:BasicFeatures] [TestCase: Iterations&SubIterations] [Description: Iterations&SubIterations] [Browser: Chrome] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//cits/BasicWebFlow_Default]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 13427
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+2021-05-19 16:16:56:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:session not created: Chrome version must be between 71 and 75
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.33 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.214.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11'
+Driver info: driver.version: SeleniumDriver
+org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 71 and 75
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.33 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.214.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11'
+Driver info: driver.version: SeleniumDriver
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:157)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:192)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:171)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:161)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:158)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:128)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[DEBUG]   | session not created: Chrome version must be between 71 and 75
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.33 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP', ip: '192.168.214.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11'
+Driver info: driver.version: SeleniumDriver
+
+===================================================================================================
+
+2021-05-19 16:16:56:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler updateTestLog:null
+java.lang.NullPointerException
+	at com.cognizant.cognizantits.engine.reporting.impl.html.HtmlTestCaseHandler.updateTestLog(HtmlTestCaseHandler.java:103)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:134)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:105)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:195)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:183)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:140)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:85)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+---------------------------------------------------
+Testcase Name        : BasicFeatures:Iterations&SubIterations
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:02
+-----------------------------------------------------
+
+Run Finished on Wed May 19 16:16:56 IST 2021
+-----------------------------------------------------
+ExecutionDate        : 19-May-2021 16-16-53
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:02
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.4\Projects\DemoProject\Results\TestExecution\cits\BasicWebFlow_Default\19-May-2021 16-16-53\summary.html
+-----------------------------------------------------
+2021-05-19 16:16:56:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer send:Sending Reports to Mail
+2021-05-19 16:16:56:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer sendMail:Compiling Mail before Sending
+2021-05-19 16:16:56:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer sendMail:Connecting to Mail Server
+2021-05-19 16:16:57:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.mail.Mailer send:null
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1961)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at com.cognizant.cognizantits.engine.mail.Mailer.sendMail(Mailer.java:106)
+	at com.cognizant.cognizantits.engine.mail.Mailer.send(Mailer.java:67)
+	at com.cognizant.cognizantits.engine.core.Control.endExecution(Control.java:199)
+	at com.cognizant.cognizantits.engine.core.Control.startRun(Control.java:178)
+	at com.cognizant.cognizantits.engine.core.Control.start(Control.java:61)
+	at com.cognizant.cognizantits.engine.core.Control.call(Control.java:70)
+	at com.cognizant.cognizantits.ide.main.mainui.EngineConfig.runProject(EngineConfig.java:46)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.testset.TestsetComponent$18.run(TestsetComponent.java:278)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 13 more
+

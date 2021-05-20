@@ -1,0 +1,5 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,URL_Global:URL,,
+2,SearchTextBox,Enter the value [<Data>] in the Field [<Object>],Set,@Brinjal,,GreenCart
+3,SearchTextBox,"Click the [<Object>] ",Click,,,GreenCart
+4,Browser,"Take a Screen Shot ",takeScreenshot,,,

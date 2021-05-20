@@ -1,0 +1,6 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,BasicFeatures:VegetableSelection,,,
+2,Btn_addsymobl,"Click the [<Object>] ",Click,,,GreenCart
+3,Edit_Quantity,Assert if [<Object>]'s Text Contains [<Data>],assertElementTextContains,@2,,GreenCart
+4,Btn_AddtoCart,"Click the [<Object>] ",Click,,,GreenCart
+5,Browser,"Take a Screen Shot ",takeScreenshot,,,

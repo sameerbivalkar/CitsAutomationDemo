@@ -1,0 +1,162 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : ${project.version}
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11
+java.home            : C:\Program Files\Java\jdk-11
+os.name              : Windows 8.1
+os.arch              : amd64
+os.version           : 6.3
+file.encoding        : UTF-8
+========================
+Run Started on Thu May 20 17:05:46 IST 2021
+Loading Browser Profile
+Loading RunManager
+[Scenario:VegetableCart] [TestCase: VegetablePlaceorder] [Description: VegetablePlaceorder] [Browser: Firefox] [BrowserVersion: Default] [Platform: ANY][ExistingBrowser: false]
+----------------------------------------------------------
+[1] TestCase selected for execution from [//GreenCartRelease/GreenCartSet]
+----------------------------------------------------------
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+1621510547473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sameer\\AppData\\Local\\Temp\\rust_mozprofile.IWpyDp8zjgvF"
+1621510548810	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1621510548875	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1621510548876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1621510548876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1621510548876	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1621510552827	Marionette	INFO	Listening on port 54177
+1621510552897	Marionette	WARN	TLS certificate errors will be ignored for this session
+2021-05-20 17:05:52:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Firefox Launched
+Step:1   | Object: Browser | Action: Open | Input: URL_Global:URL | Conditon:  | @20-May-2021 17:05:52.052
+[DONE]   | Opened Url: https://rahulshettyacademy.com/seleniumPractise/#/
+
+===================================================================================================
+
+Step:2   | Object: SearchTextBox | Action: Set | Input: @Brinjal | Conditon:  | @20-May-2021 17:05:57.057
+Using @xpath [//input[@type='search']], Object 'SearchTextBox' Found in 20 ms
+[DONE]   | Entered Text 'Brinjal' on 'SearchTextBox'
+
+===================================================================================================
+
+Step:3   | Object: SearchTextBox | Action: Click | Input:  | Conditon:  | @20-May-2021 17:05:57.057
+Using @xpath [//input[@type='search']], Object 'SearchTextBox' Found in 16 ms
+[DONE]   | Clicking on SearchTextBox
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @20-May-2021 17:05:57.057
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:2   | Object: PageTitle | Action: verifyPageHeader | Input: @GreenKart | Conditon:  | @20-May-2021 17:05:58.058
+Using @relative_xpath [//header/div[1]/div[1]], Object 'PageTitle' Found in 10 ms
+[DONE]   | HeaderText  is matched between Expected : GREENKARTActual : GreenKart
+
+===================================================================================================
+
+Step:3   | Object: Edit_Quantity | Action: assertElementTextContains | Input: @1 | Conditon:  | @20-May-2021 17:05:58.058
+Using @relative_xpath [//input[@type='number']], Object 'Edit_Quantity' Found in 8 ms
+[PASS]   | Edit_Quantity's Text CONTAINS 1 
+
+===================================================================================================
+
+Step:4   | Object: Edit_Quantity | Action: highlight | Input:  | Conditon:  | @20-May-2021 17:05:59.059
+Using @relative_xpath [//input[@type='number']], Object 'Edit_Quantity' Found in 9 ms
+[PASS]   | Element Highlighted
+
+===================================================================================================
+
+Step:5   | Object: Btn_addsymobl | Action: Click | Input:  | Conditon:  | @20-May-2021 17:05:59.059
+Using @relative_xpath [//a[contains(text(),'+')]], Object 'Btn_addsymobl' Found in 13 ms
+[DONE]   | Clicking on Btn_addsymobl
+
+===================================================================================================
+
+Step:6   | Object: Edit_Quantity | Action: assertElementTextContains | Input: @2 | Conditon:  | @20-May-2021 17:06:00.000
+Using @relative_xpath [//input[@type='number']], Object 'Edit_Quantity' Found in 5 ms
+[PASS]   | Edit_Quantity's Text CONTAINS 2 
+
+===================================================================================================
+
+Step:7   | Object: Btn_AddtoCart | Action: Click | Input:  | Conditon:  | @20-May-2021 17:06:00.000
+Using @relative_xpath [//button[contains(text(),'ADD TO CART')]], Object 'Btn_AddtoCart' Found in 8 ms
+[DONE]   | Clicking on Btn_AddtoCart
+
+===================================================================================================
+
+Step:8   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @20-May-2021 17:06:01.001
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+1621510561797	Marionette	INFO	Stopped listening on port 54177
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+---------------------------------------------------
+Testcase Name        : VegetableCart:VegetablePlaceorder
+Executed Steps       : 11
+Passed Steps         : 11
+Failed Steps         : 0
+Time Taken           : 00:00:22
+-----------------------------------------------------
+
+Run Finished on Thu May 20 17:06:09 IST 2021
+-----------------------------------------------------
+ExecutionDate        : 20-May-2021 17-05-46
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:22
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.4\Projects\DemoProject\Results\TestExecution\GreenCartRelease\GreenCartSet\20-May-2021 17-05-46\summary.html
+-----------------------------------------------------
+Latest Excel Report Path F:\cognizant-intelligent-test-scripter-1.4\Projects\DemoProject\Results\TestExecution\GreenCartRelease\GreenCartSet\Latest
+2021-05-20 17:06:11:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer send:Sending Reports to Mail
+2021-05-20 17:06:11:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer sendMail:Compiling Mail before Sending
+2021-05-20 17:06:11:05S +0530 [INFO] com.cognizant.cognizantits.engine.mail.Mailer sendMail:Connecting to Mail Server
+2021-05-20 17:06:12:05S +0530 [SEVERE] com.cognizant.cognizantits.engine.mail.Mailer send:null
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused: connect
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1961)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:654)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at com.cognizant.cognizantits.engine.mail.Mailer.sendMail(Mailer.java:106)
+	at com.cognizant.cognizantits.engine.mail.Mailer.send(Mailer.java:67)
+	at com.cognizant.cognizantits.engine.core.Control.endExecution(Control.java:199)
+	at com.cognizant.cognizantits.engine.core.Control.startRun(Control.java:178)
+	at com.cognizant.cognizantits.engine.core.Control.start(Control.java:61)
+	at com.cognizant.cognizantits.engine.core.Control.call(Control.java:70)
+	at com.cognizant.cognizantits.ide.main.mainui.EngineConfig.runProject(EngineConfig.java:46)
+	at com.cognizant.cognizantits.ide.main.mainui.components.testexecution.testset.TestsetComponent$18.run(TestsetComponent.java:278)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/java.net.Socket.connect(Socket.java:540)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:321)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:237)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1927)
+	... 13 more
+

@@ -1,0 +1,4 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Execute,,BasicFeatures:VegetableSelection,,,
+2,Edit_Quantity,,ass,,,GreenCart
+3,Btn_AddtoCart,"Click the [<Object>] ",Click,,,GreenCart

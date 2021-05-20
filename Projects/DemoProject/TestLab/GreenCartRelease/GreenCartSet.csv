@@ -1,0 +1,3 @@
+Execute,TestScenario,TestCase,Iteration,Status,Browser,BrowserVersion,Platform
+true,VegetableCart,VegetablePlaceorder,Single,Passed,Firefox,Default,Any
+true,VegetableCart,VegetableBrinjalOrderE2E,Single,Passed,Firefox,Default,Any

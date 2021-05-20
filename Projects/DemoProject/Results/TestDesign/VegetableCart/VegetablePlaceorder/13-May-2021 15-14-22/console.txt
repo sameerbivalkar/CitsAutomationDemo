@@ -1,0 +1,100 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11
+java.home            : C:\Program Files\Java\jdk-11
+os.name              : Windows 8.1
+os.arch              : amd64
+os.version           : 6.3
+file.encoding        : UTF-8
+========================
+Run Started on Thu May 13 15:14:22 IST 2021
+Loading Browser Profile
+Loading RunManager
+[Scenario:VegetableCart] [TestCase: VegetablePlaceorder] [Description: Test Run] [Browser: Firefox] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+1620899063546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\sameer\\AppData\\Local\\Temp\\rust_mozprofile.3n5lacYVjqID"
+1620899065140	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1620899065208	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1620899065208	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1620899065208	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1620899065209	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1620899068658	Marionette	INFO	Listening on port 49540
+1620899068973	Marionette	WARN	TLS certificate errors will be ignored for this session
+2021-05-13 15:14:29:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Firefox Launched
+Step:1   | Object: Browser | Action: Open | Input: URL_Global:URL | Conditon:  | @13-May-2021 15:14:29.029
+[DONE]   | Opened Url: https://rahulshettyacademy.com/seleniumPractise/#/
+
+===================================================================================================
+
+Step:2   | Object: SearchTextBox | Action: Set | Input: @Brinjal | Conditon:  | @13-May-2021 15:14:34.034
+Using @xpath [//input[@type='search']], Object 'SearchTextBox' Found in 14 ms
+[DONE]   | Entered Text 'Brinjal' on 'SearchTextBox'
+
+===================================================================================================
+
+Step:3   | Object: SearchTextBox | Action: Click | Input:  | Conditon:  | @13-May-2021 15:14:34.034
+Using @xpath [//input[@type='search']], Object 'SearchTextBox' Found in 14 ms
+[DONE]   | Clicking on SearchTextBox
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @13-May-2021 15:14:35.035
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+Step:2   | Object: Edit_Quantity | Action: assertElementTextContains | Input: @1 | Conditon:  | @13-May-2021 15:14:35.035
+Using @relative_xpath [//input[@type='number']], Object 'Edit_Quantity' Found in 15 ms
+[PASS]   | Edit_Quantity's Text CONTAINS 1 
+
+===================================================================================================
+
+Step:3   | Object: Btn_AddtoCart | Action: Click | Input:  | Conditon:  | @13-May-2021 15:14:36.036
+Using @relative_xpath [//button[contains(text(),'ADD TO CART')]], Object 'Btn_AddtoCart' Found in 7 ms
+[DONE]   | Clicking on Btn_AddtoCart
+
+===================================================================================================
+
+Step:4   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @13-May-2021 15:14:36.036
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+1620899077400	Marionette	INFO	Stopped listening on port 49540
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+---------------------------------------------------
+Testcase Name        : VegetableCart:VegetablePlaceorder
+Executed Steps       : 7
+Passed Steps         : 7
+Failed Steps         : 0
+Time Taken           : 00:00:22
+-----------------------------------------------------
+
+Run Finished on Thu May 13 15:14:45 IST 2021
+Performance log not found. Make sure "capturePageTimings" action is included in testcase. 
+-----------------------------------------------------
+ExecutionDate        : 13-May-2021 15-14-22
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:22
+ReportPath           : file:///F:\cognizant-intelligent-test-scripter-1.4\Projects\DemoProject\Results\TestDesign\VegetableCart\VegetablePlaceorder\13-May-2021 15-14-22\summary.html
+-----------------------------------------------------
